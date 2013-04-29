@@ -1,0 +1,44 @@
+Florea Alexandru - Ionut
+313CA
+
+	Programul implementeaza un simulator simplu al activitatii din centrul de
+colectare al pachetelor.
+	Programul primeste inctructiuni dintr-un fisier dat ca parametru in linie
+de comanda, iar pentru a interpreta aceste instructiuni am creat o serie de 
+functii. Am creat un vector de entitati 'window', un vector de cozi si un 
+vector de stive. Deasemeni numaru ghiseelor deschide si ID-urile acestora le
+pastrez in entitatea 'array'. Functii:
+
+	-open_window:
+		Creeaza o entitate de tipul 'window' si o adauga in vector de entitati
+		de acest tip; totodata creaza si o stiva si o coada care initial sunt
+		goale si le adauga in vectorii corespunzatori.
+		
+	-add_person:
+		Creaza o entitate de tipul 'person' si o adauga in coada specificata
+		
+	-process:
+		Proceseaza un numar de persoane din coada corespunzatoare ghiseului
+		specificat. Deasemeni daca o persoana nu indeplineste cerintele unui
+		ghiseu este mutata la ghiseului urmatorul cu ID-ul mai mare sau la 
+		ghiseul cu ID-ul cel mai mic daca nu exista niciun ghiseu cu ID-ul 
+		mai mare.
+		
+	-processAll:
+		Face acelasi lucru ca si functia 'process' doar ca proceseaza toate 
+		persoanele din coada.
+		
+	-printStacks:
+		Afiseaza starea curenta a stivei unui anumit ghiseu. Pentru a nu afecta
+		in vreun fel stiva, am salvat elementele in alta stiva, iar la final 
+		le-am adaugat inapoi.
+		
+	-printQueues:
+		Afiseaza starea curenta a cozii unui anumit ghiseu. Pentru a nu afecta
+		in vreun fel coada, am salvat elementele in alta coada, iar la final 
+		le-am adaugat inapoi.
+		
+	-flushStacks:
+		face acelasi lucru ca si functia 'printStacks' doar ca goleste stivele.
+		
+		
