@@ -1,6 +1,3 @@
-//Florea Alexandru - Ionut
-//313CA
-
 #ifndef __LL_H_
 #define __LL_H_
 

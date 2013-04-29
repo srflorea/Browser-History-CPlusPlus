@@ -1,6 +1,3 @@
-//Florea Alexandru - Ionut
-//313CA
-
 #ifndef __STACK__H
 #define __STACK__H
 

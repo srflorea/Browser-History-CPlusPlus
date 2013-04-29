@@ -1,6 +1,3 @@
-//Florea Alexandru - Ionut
-//313CA
-
 #ifndef __QUEUE__H
 #define __QUEUE__H
 

@@ -1,5 +1,3 @@
-//Florea Alexandru - Ionut
-//313CA
 
 #pragma once
 
